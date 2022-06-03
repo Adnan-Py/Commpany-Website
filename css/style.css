@@ -1,0 +1,477 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --green: #1bbd36;
+}
+
+.below-nav {
+    margin-top: 7em !important;
+}
+
+/* home page start  */
+a {
+    text-decoration: none;
+}
+
+.green-text {
+    color: var(--green);
+}
+
+.green-bg {
+    background-color: var(--green);
+}
+
+/* navbar start  */
+ul li a {
+    font-size: 13px;
+}
+
+/* .navbar-light .navbar-nav .nav-link.active {
+    color: var(--green) !important;
+} */
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover>a {
+    color: var(--green) !important;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    text-decoration: none;
+    background-color: unset;
+}
+
+.container h1 {
+    font-size: 28px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0 0 0 / 100%);
+}
+
+.navbar-nav .nav-link:hover,
+.icons a:hover {
+    color: var(--green) !important;
+}
+
+.icons a {
+    color: black;
+}
+
+/* navbar end  */
+
+/* slider start  */
+
+.carousel-indicators [data-bs-target] {
+    height: 15px !important;
+    width: 15px !important;
+    border-radius: 50% !important;
+}
+
+.carousel-indicators .active {
+    background-color: var(--green);
+}
+
+/* slider end  */
+
+
+/* boxes section start  */
+.gray1-bg {
+    background-color: #f7f7f7;
+}
+
+.shadow-design:hover {
+    box-shadow: 0px 0px 8px 1px #dbdbdb;
+}
+
+/* boxes section end */
+
+
+/* items section start */
+.items a:hover,
+.items a.active {
+    color: rgb(255, 255, 255);
+    background: rgb(27, 189, 54);
+}
+
+.cont {
+    position: relative;
+}
+
+.image1 {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    right: 5%;
+    transform: translate(0%, -50%);
+}
+
+/* .lamp-text {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 68%;
+    left: 5%;
+    right: 5%;
+    transform: translate(0%, -50%);
+} */
+
+.cont:hover .middle {
+    opacity: 1;
+}
+
+.green-icon a:hover {
+    background-color: unset !important;
+    color: var(--green);
+}
+
+
+/* items section end */
+
+/* client section start  */
+.clients h2::after {
+
+    display: block;
+    content: '';
+    width: 50px;
+    height: 3px;
+    background: var(--green);
+    position: absolute;
+    bottom: -15px;
+    left: 48%;
+    margin-top: 50px;
+}
+
+.client-images img {
+    height: 36px;
+    filter: grayscale(100%);
+    position: relative;
+    bottom: 50%;
+    transition: 0.6s ease;
+}
+
+.client-images img:hover {
+    filter: grayscale(0);
+    transform: scale(1.2);
+}
+
+/* client section end */
+
+/* footer start  */
+.fs-10 {
+    font-size: 10px;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-14 {
+    font-size: 14px !important;
+}
+
+.fs-16 {
+    font-size: 16px !important;
+}
+
+.fs-22 {
+    font-size: 22px !important;
+}
+
+.one-col p {
+    opacity: 0.6;
+}
+
+.hover-link a span {
+    opacity: 0.6;
+    transition: 0.5s ease;
+}
+
+.hover-link a span:hover {
+    opacity: 1;
+}
+
+.gray-bg {
+    background-color: #181818;
+}
+
+.hover-green-icons a i:hover {
+    color: var(--green) !important;
+    transition: 0.5s ease;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.form-control:focus {
+    border-color: unset !important;
+    box-shadow: none !important;
+}
+
+/* footer end  */
+.up {
+    position: fixed;
+    bottom: 2px;
+    right: 5px;
+}
+
+.btn-check:focus+.btn,
+.btn:focus {
+    box-shadow: none !important;
+}
+
+/* home page end  */
+
+
+/* About us page start  */
+.our-team h2::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background: var(--green);
+    left: 47%;
+    bottom: -15px;
+}
+
+.black-icon {
+    color: black;
+}
+
+.team {
+    position: relative;
+}
+
+.hover-green-icons {
+    position: absolute;
+    bottom: 85px;
+}
+
+.light-white {
+    background-color: #eeeaea;
+}
+
+.footer-hover-green-icons a i:hover {
+    color: var(--green) !important;
+    transition: 0.5s ease;
+}
+
+.img-hov-icons a i:hover {
+    color: var(--green) !important;
+    transition: 0.5s ease;
+}
+
+/* our skills start  */
+.our-skills h2::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background: var(--green);
+    left: 47%;
+    bottom: -15px;
+}
+
+/* our skills end  */
+.box {
+    position: relative;
+}
+
+.bg-light-white-prop {
+    opacity: 0;
+    position: absolute;
+    bottom: 80px;
+}
+
+.bg-light-white {
+    background-color: #dbdbdbc7;
+}
+
+.bg-light-white {
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+.box:hover .bg-light-white {
+    opacity: 1 !important;
+}
+
+/* About us page end  */
+
+/* Sercives page start  */
+.features h2::after {
+    display: block;
+    content: '';
+    width: 50px;
+    height: 3px;
+    background: var(--green);
+    position: absolute;
+    bottom: -15px;
+    left: 48%;
+    margin-top: 50px;
+}
+
+.orange {
+    color: orange;
+}
+
+.purple {
+    color: purple;
+}
+
+.pink {
+    color: rgb(230, 59, 87);
+}
+
+.brown {
+    color: brown;
+}
+
+.bg-orange {
+    background-color: orange;
+}
+
+.bg-purple {
+    background-color: purple;
+}
+
+.bg-pink {
+    background-color: rgb(230, 59, 87);
+}
+
+.bg-brown {
+    background-color: brown;
+}
+
+/* Sercives page end  */
+
+/* header .active {
+    background-color: rgb(0, 140, 255);
+    color: white;
+
+} */
+
+
+/* pricing page start  */
+.fs-36 {
+    font-size: 36px;
+}
+
+.faq-title h2::after {
+    display: block;
+    content: '';
+    width: 50px;
+    height: 3px;
+    background: var(--green);
+    position: absolute;
+    bottom: -15px;
+    left: 48%;
+}
+
+/* .developer img {
+    max-height: 440px;
+} */
+
+.dolorum a {
+    text-decoration: none;
+    color: black;
+}
+
+.dolorum h4 {
+    transition: all 0.4s ease;
+}
+
+.dolorum h4:hover {
+    color: var(--green);
+}
+
+.tags a {
+    transition: all 0.4s ease;
+}
+
+.bg-hover-green:hover {
+    background-color: var(--green);
+    color: white !important;
+}
+
+.faq .accordion-button:not(.collapsed):hover {
+    color: var(--green) !important;
+}
+
+.faq .accordion-button:not(.collapsed) {
+    color: unset;
+    background-color: unset;
+    box-shadow: unset;
+}
+
+.faq .accordion-button:focus {
+    box-shadow: unset;
+}
+
+.green-hover-text:hover {
+    color: var(--green);
+}
+
+.faq .heading span {
+    transition: all 0.5s ease;
+}
+
+.faq .accordion-item {
+    border: none;
+}
+
+.ultimate p {
+    /* position: absolute;
+    transform: rotate(50deg);
+    top: 20px;
+    left: 155px; */
+
+    width: 125px;
+    position: absolute;
+    top: 18px;
+    right: -24px;
+    transform: rotate(41deg);
+    font-size: 14px;
+    padding: 1px 0 3px 0;
+}
+
+/* pricing page end  */
+
+/* contact us start  */
+.contact-icons i {
+    transition: all 1s ease;
+}
+
+.contact-icons i:hover {
+    transform: rotate(360deg);
+}
+
+.contact .form-control:focus {
+    border-color: var(--green) !important;
+}
+
+.contact .form-control::placeholder {
+    opacity: 0.6;
+    font-size: 16px !important;
+}
+
+/* contact us end */
